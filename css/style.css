@@ -995,12 +995,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
-    padding: 1em 0;
+    padding: 5em 0;
   }
 }
 #fh5co-contact .fh5co-heading .heading {
   position: relative;
-  padding-top: 10px !important;
+  padding-top: 30px !important;
 }
 #fh5co-contact .fh5co-heading .heading:before, #fh5co-contact .fh5co-heading .heading::before {
   height: 61px;
@@ -1355,9 +1355,9 @@ p {
   padding-bottom: 40px;
 }
 
-.row .map{
-  flex: 1 1 45rem;
-  width: 100%;
-  object-fit: cover;
+/* .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover; */
 }
 /*# sourceMappingURL=style.css.map */
