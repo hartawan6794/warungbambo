@@ -4,6 +4,8 @@
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
+  font-family: 'bamboofont';
+  src: url("../fonts/bamboo.ttf");
 }
 body {
   font-family: "Merriweather", serif;
@@ -209,7 +211,7 @@ p {
 #fh5co-home .flexslider .fh5co-text h1 {
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", serif;
+  font-family: "bambooFont";
   font-size: 128px;
   font-weight: 700;
   font-style: italic;
@@ -220,13 +222,14 @@ p {
 }
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
-    font-size: 64px;
+    font-size: 80px;
   }
 }
 #fh5co-home .flexslider .fh5co-text h2 {
-  margin: 0;
+  margin: 1rem 0;
   padding: 0;
-  font-family: "Merriweather", serif;
+  font-family: "bambooFont";
+  
   font-weight: 300;
   font-size: 40px;
   letter-spacing: 2px;
@@ -878,7 +881,7 @@ p {
   float: right;
   width: 20%;
   text-align: right;
-  margin: 0 1.2rem;
+  margin: 0 3rem;
   font-size: 20px;
   color: #fb6e14;
 }
@@ -1355,9 +1358,9 @@ p {
   padding-bottom: 40px;
 }
 
-/* .map{
+.map{
     flex: 1 1 45rem;
     width: 100%;
-    object-fit: cover; */
+    object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
