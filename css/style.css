@@ -878,6 +878,7 @@ p {
   float: right;
   width: 20%;
   text-align: right;
+  margin: 0 1.2rem;
   font-size: 20px;
   color: #fb6e14;
 }
@@ -985,7 +986,7 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 #fh5co-contact h3 {
@@ -994,12 +995,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-contact {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 #fh5co-contact .fh5co-heading .heading {
   position: relative;
-  padding-top: 30px !important;
+  padding-top: 10px !important;
 }
 #fh5co-contact .fh5co-heading .heading:before, #fh5co-contact .fh5co-heading .heading::before {
   height: 61px;
